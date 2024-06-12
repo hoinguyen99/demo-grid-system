@@ -1,0 +1,17 @@
+*, ::after,::before{
+    box-sizing: border-box;
+}
+body{
+    font-family: system-ui;
+}
+.inner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 100px;
+    margin-bottom: 38px;
+    background: #ccc;
+    font-size: 30px;
+    font-weight: 600;
+}
